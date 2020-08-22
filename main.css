@@ -1,3 +1,52 @@
 body {
-    background-color: black;
+    background-color: rgb(175, 193, 201);
+    background-image: url(https://www.schultzphoto.com/wp-content/uploads/2016/01/alaska-landscape-photography-020-chugach-mountains-creek-winter.jpg);
+}
+
+#jumbo-bear {
+    background-image: url(https://live.staticflickr.com/4302/35960846571_8b1573d536_b.jpg);
+    border: 10px grey solid;
+}
+
+.display-4 {
+    text-align: center;
+    color: rgb(175, 193, 201) ;
+    text-shadow: 2px 2px rgb(75, 60, 60);
+    font-size: 80px;
+    letter-spacing: 4px;
+}
+
+
+
+.bear-card {
+    border-radius: 12px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.bear-card-body{
+    background-color: rgb(75, 60, 60);
+}
+
+.card-text {
+    color: rgb(175, 193, 201);
+    height: 50px;
+}
+
+.lead {
+    text-align: center;
+    letter-spacing: 1px;
+    color: rgb(75, 60, 60);
+    background-color: rgb(175, 193, 201);
+    border: 3px solid grey;
+}
+
+
+.submit-card {
+    background-color: rgb(175, 193, 201);
+    margin: 20px;
+    border-radius: 12px;
+    width: 250px;
+    border: 4px rgb(75, 60, 60) solid;
 }
