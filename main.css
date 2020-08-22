@@ -29,6 +29,10 @@ body {
     background-color: rgb(75, 60, 60);
 }
 
+#bearPic {
+    height: 270px;
+}
+
 .card-text {
     color: rgb(175, 193, 201);
     height: 50px;
